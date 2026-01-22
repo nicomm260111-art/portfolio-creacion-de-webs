@@ -62,3 +62,10 @@ section {
   transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
+.hero button {
+  transition: transform 0.2s;
+}
+
+.hero button:hover {
+  transform: scale(1.05);
+}
